@@ -4,7 +4,7 @@ heroImage: /me.gif
 heroText: null
 tagline: 行到水穷处，坐看云起时
 actionText: 欢迎光临 →
-actionLink: /life/daily.html
+actionLink: /life/financing.html
 features:
 - title: 沟通
   details: 沟通创造价值，传递价值。
