@@ -14,6 +14,7 @@ module.exports = {
             {
                 text: '生活',
                 items: [
+                    { text: '日常记录', link: '/life/daily' },
                     { text: '金融理财', link: '/life/financing' },
                     { text: '职场法律', link: '/life/law' },
                     { text: '医学健康', link: '/life/health' },
