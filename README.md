@@ -1,5 +1,5 @@
 # Blog
-A personal blog created by VuePress.
+A personal blog created by VuePress 1.x.
 
 <img src="./qr.png" width="200">
 
@@ -12,6 +12,7 @@ yarn deploy
 
 ## Features
 - 支持热更新 
+- 支持自动打开浏览器
 - 支持返回顶部
 - 支持外链资源
 - 支持一键部署

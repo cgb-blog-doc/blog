@@ -4,6 +4,7 @@ module.exports = {
     head: [
         ['link', { rel: 'icon', href: '/logo.png' }]
     ],
+    host: 'localhost',
     base: '/blog/',
     dest: 'docs',
     plugins: ['@vuepress/back-to-top', '@vuepress/medium-zoom'],
