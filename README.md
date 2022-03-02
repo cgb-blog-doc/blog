@@ -1,7 +1,7 @@
 # Blog
 A personal blog created by VuePress.
 
-<img src="https://github.com/JasonBai007/blog/raw/master/qr.png" width="200">
+<img src="./qr.png" width="200">
 
 ## How to USE
 ```
