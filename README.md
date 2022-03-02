@@ -15,6 +15,28 @@ yarn deploy
 - 支持一键部署
 - 支持图片放映
 
+## Directory Structure
+```
+├── docs (打包后目录)
+├── src  (博客文档源文件)
+│   ├── .vuepress 
+│   │   ├── components (Optional)
+│   │   ├── theme (Optional)
+│   │   │   └── Layout.vue
+│   │   ├── public (图片资源)
+│   │   ├── styles (Optional)
+│   │   │   ├── index.styl
+│   │   │   └── palette.styl│   │   
+│   │   ├── config.js (博客导航配置文件)
+│   │   └── enhanceApp.js (Optional)
+│   │ 
+│   ├── README.md
+│   ├── guide
+│   │   └── README.md
+│   └── config.md
+│ 
+└── package.json
+```
 ## Notes
 1. VuePress默认docs作为基准目录，但是为了使用GitHub的Pages服务，改为src了
 2. 打包后的目录从dist改为了docs
