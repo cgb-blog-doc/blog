@@ -28,7 +28,7 @@ yarn deploy
 │   │   ├── public (图片资源)
 │   │   ├── styles (Optional)
 │   │   │   ├── index.styl
-│   │   │   └── palette.styl  
+│   │   │   └── palette.styl  (全局样式变量)
 │   │   ├── config.js (博客导航配置文件)
 │   │   └── enhanceApp.js (Optional)
 │   │ 
