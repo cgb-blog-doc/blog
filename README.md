@@ -26,7 +26,7 @@ yarn deploy
 │   │   ├── public (图片资源)
 │   │   ├── styles (Optional)
 │   │   │   ├── index.styl
-│   │   │   └── palette.styl│   │   
+│   │   │   └── palette.styl  
 │   │   ├── config.js (博客导航配置文件)
 │   │   └── enhanceApp.js (Optional)
 │   │ 
@@ -43,3 +43,6 @@ yarn deploy
 3. .temp是临时文件夹，无需提交到远程
 4. .vuepress文件夹是项目的配置文件夹
 5. 由于Gitee审查不透明，经常无法部署，所以只能选择GitHub的Pages服务
+6. 由于国内封锁,GitHub只能偶尔push代码成功，需要反复多次尝试
+7. Github提交代码后，等待一两分钟，刷新页面，博客会更新
+8. Gitee提交代码后，需要手动更新Pages
