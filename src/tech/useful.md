@@ -53,3 +53,16 @@ git push
 14. 认证通过后，就可以开启服务了，开启后会自动生成**网站地址**
     ![地址](/blog/tech/t3.png)
 15. 以后改完代码后，执行步骤 11 和步骤 14 即可
+
+## 服务器免密登录三步曲
+
+```sh {5}
+# 在~/.ssh/目录下生成：公钥id_rsa.pub 和 私钥id_rsa
+ssh-keygen
+
+# 将生成的公钥 id_rsa.pub 发送至目标服务器，期间需要输入登录密码
+ssh-copy-id root@xxx.xxx.xx.xxx
+
+# 尝试免密登录目标服务器
+ssh root@xxx.xxx.xx.xxx
+```
