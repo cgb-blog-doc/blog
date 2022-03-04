@@ -7,12 +7,7 @@ module.exports = {
     host: 'localhost',
     base: '/blog/',  // 同代码仓库名称
     dest: 'docs',   // 因为GitHub的Pages服务仅支持docs目录
-    plugins: {
-        '@vuepress/back-to-top': {}, // 返回顶部插件
-        '@vuepress/medium-zoom': {  // 图片缩放插件，这么设置，才支持md文件中的img标签缩放
-            selector: 'img.medium-zoom-image',
-        }
-    },
+    plugins: ['@vuepress/back-to-top', '@vuepress/medium-zoom'],  // 返回顶部插件 图片缩放插件    
     themeConfig: {
         logo: '/logo.png',
         nav: [
