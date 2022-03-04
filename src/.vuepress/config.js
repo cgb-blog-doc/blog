@@ -2,12 +2,17 @@ module.exports = {
     title: '小白的博客',
     description: '小白的个人博客',
     head: [
-        ['link', { rel: 'icon', href: '/logo.png' }]
+        ['link', { rel: 'icon', href: '/logo.png' }]  // favicon
     ],
     host: 'localhost',
-    base: '/blog/',
-    dest: 'docs',
-    plugins: ['@vuepress/back-to-top', '@vuepress/medium-zoom'],
+    base: '/blog/',  // 同代码仓库名称
+    dest: 'docs',   // 因为GitHub的Pages服务仅支持docs目录
+    plugins: {
+        '@vuepress/back-to-top': {}, // 返回顶部插件
+        '@vuepress/medium-zoom': {  // 图片缩放插件，这么设置，才支持md文件中的img标签缩放
+            selector: 'img.medium-zoom-image',
+        }
+    },
     themeConfig: {
         logo: '/logo.png',
         nav: [
@@ -39,7 +44,7 @@ module.exports = {
             },
             { text: 'GitHub', link: 'https://github.com/JasonBai007' },
         ],
-        sidebar: 'auto',
+        sidebar: 'auto',  // 侧栏根据页面标题自动生成导航
         lastUpdated: 'Last Updated', // string | boolean
         smoothScroll: true,
     },
