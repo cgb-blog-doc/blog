@@ -32,7 +32,7 @@ module.exports = {
             {
                 text: '实用网址',
                 items: [
-                    { text: '影视资源', link: 'https://www.nunuyy1.top/' },
+                    { text: '影视资源', link: 'https://www.nunuyy10.top' },
                     { text: '科学上网', link: 'https://github.com/freefq/free' },
                     { text: '博客主题', link: 'https://vuepress.vuejs.org/zh/theme/default-theme-config.html' },
                     { text: '编辑工具', link: 'https://pandao.github.io/editor.md' },
