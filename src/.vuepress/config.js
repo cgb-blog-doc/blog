@@ -25,6 +25,7 @@ module.exports = {
             {
                 text: '技术', items: [
                     { text: '实用技术', link: '/tech/useful' },
+                    { text: '实用网站', link: '/tech/recommend' },
                 ]
             },
             { text: '摄影', link: '/shot/' },
