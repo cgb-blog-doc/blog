@@ -28,7 +28,7 @@ module.exports = {
                     { text: '实用网站', link: '/tech/recommend' },
                 ]
             },
-            { text: '摄影', link: '/shot/' },
+            { text: '摄影', link: '/album/' },
             {
                 text: '实用网址',
                 items: [
