@@ -1,5 +1,5 @@
 module.exports = {
-    title: '小白的博客',
+    title: "行云流水",
     description: '小白的个人博客',
     head: [
         ['link', { rel: 'icon', href: '/logo.png' }]  // favicon
