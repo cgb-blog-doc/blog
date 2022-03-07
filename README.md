@@ -17,26 +17,26 @@ yarn deploy
 - 支持外链资源
 - 支持一键部署
 - 支持图片放映
+- 支持自定义样式
+- 支持自定义主题色
 
 ## Directory Structure
 ```
 ├── docs (打包后目录)
 ├── src  (博客文档源文件)
 │   ├── .vuepress 
-│   │   ├── components (Optional)
-│   │   ├── theme (Optional)
+│   │   ├── components
+│   │   ├── theme
 │   │   │   └── Layout.vue
 │   │   ├── public (图片资源)
-│   │   ├── styles (Optional)
-│   │   │   ├── index.styl
-│   │   │   └── palette.styl  (全局样式变量)
-│   │   ├── config.js (博客导航配置文件)
-│   │   └── enhanceApp.js (Optional)
+│   │   ├── styles
+│   │   │   ├── index.styl  (自定义样式)
+│   │   │   └── palette.styl  (全局主题样式变量)
+│   │   └── config.js  (路由导航)
 │   │ 
 │   ├── README.md
 │   ├── guide
-│   │   └── README.md
-│   └── config.md
+│       └── README.md
 │ 
 └── package.json
 ```
