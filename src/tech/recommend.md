@@ -14,6 +14,7 @@
 
 - [Incofont](https://www.iconfont.cn)（阿里巴巴图标库）
 - [uiGradients](https://uigradients.com/#BacktotheFuture)（过渡色生成器）
+- [LottieFiles](https://lottiefiles.com/featured)（来自国外设计师的炫酷动画网站）
 
 ## 工具类
 
