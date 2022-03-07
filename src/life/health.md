@@ -10,10 +10,9 @@
 
 ## 精神焦虑症的自救
 
-> [https://lubanseven.gitee.io/selfhelp](https://lubanseven.gitee.io/selfhelp)（Audio）  
-> [https://lubanseven.gitee.io/nerves/pdf/HopeandHelpforYourNerves.pdf](https://lubanseven.gitee.io/nerves/pdf/HopeandHelpforYourNerves.pdf)（PDF）
-
-<iframe src="https://lubanseven.gitee.io/selfhelp" frameborder="0" width="100%" height="600"></iframe>
+> [《精神焦虑症的自救（音频朗读版）》](https://lubanseven.gitee.io/selfhelp)  
+> [《精神焦虑症的自救（病理分析卷）》](https://lubanseven.gitee.io/asset/pdf/anxiety1.pdf)  
+> [《精神焦虑症的自救（演讲访谈卷）》](https://lubanseven.gitee.io/asset/pdf/anxiety2.pdf)
 
 ## 恢复方法
 
