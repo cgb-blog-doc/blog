@@ -17,7 +17,43 @@ ssh-copy-id root@xxx.xxx.xx.xxx
 ssh root@xxx.xxx.xx.xxx
 ```
 
+## 安装 node-sass 模块
+
+```bash
+# 因为 node-sass 模块被墙掉了
+npm i node-sass --sass_binary_site=https://npm.taobao.org/mirrors/node-sass/
+# 再安装别的依赖
+npm i
+```
+## 查看模块版本列表
+
+```bash
+# 查看版本列表
+npm view vue versions
+# 查看某个模块的信息
+npm view vue
+```
+
+## 更改NPM镜像源
+
+```bash
+# 改成淘宝镜像源
+npm config set registry https://registry.npm.taobao.org
+# 改回官方镜像源
+npm config set registry https://registry.npm.org
+```
+
+## 设置Electron镜像源
+
+```bash
+# npm
+npm config set electron_mirror https://npm.taobao.org/mirrors/electron/
+# yarn
+yarn config set electron_mirror https://npm.taobao.org/mirrors/electron/
+```
+
 ## 在 Gitee 上部署自己的网站
+
 ::: warning 警告
 由于**Gitee 网站**审核力度非常变态，普通的博客也很有可能无法正常部署，提示有违禁内容
 :::
