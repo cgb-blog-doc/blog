@@ -20,6 +20,7 @@ module.exports = {
                     { text: '职场法律', link: '/life/law' },
                     { text: '医学健康', link: '/life/health' },
                     { text: '诗词收藏', link: '/life/poems' },
+                    { text: '择偶条件', link: '/life/condition' },
                 ]
             },
             {
