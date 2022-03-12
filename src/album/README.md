@@ -8,14 +8,6 @@
     <img src="/blog/pics/road/3.jpg" class="medium-zoom-image"/>
 </div>
 
-## 星泰中心
-
-<div class="album-wrap">
-    <img src="/blog/pics/star/1.jpg" class="medium-zoom-image"/>
-    <img src="/blog/pics/star/2.jpg" class="medium-zoom-image"/>
-    <img src="/blog/pics/star/3.jpg" class="medium-zoom-image"/>
-</div>
-
 ## 亮马桥
 
 <div class="album-wrap">
