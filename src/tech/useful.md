@@ -52,3 +52,9 @@ npm config set electron_mirror https://npm.taobao.org/mirrors/electron/
 # yarn
 yarn config set electron_mirror https://npm.taobao.org/mirrors/electron/
 ```
+
+## 获取数组最后一个值
+
+```javascript
+array.at(-1)
+```

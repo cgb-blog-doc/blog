@@ -15,6 +15,7 @@ module.exports = {
             {
                 text: '生活',
                 items: [
+                    { text: '价值观', link: '/life/values' },
                     { text: '日常记录', link: '/life/daily' },
                     { text: '金融理财', link: '/life/financing' },
                     { text: '职场法律', link: '/life/law' },
@@ -26,6 +27,7 @@ module.exports = {
             {
                 text: '技术', items: [
                     { text: '网站部署', link: '/tech/deploy' },
+                    { text: '样式技巧', link: '/tech/styles' },
                     { text: '实用技术', link: '/tech/useful' },
                     { text: '实用网站', link: '/tech/recommend' },
                     { text: '开源项目', link: '/tech/projects' },
