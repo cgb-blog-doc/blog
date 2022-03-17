@@ -9,3 +9,5 @@
 3. 每一天都是机会。
 
 4. All work and no play makes jack a dull boy.
+
+5. 尝试、尝试、再尝试。

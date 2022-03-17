@@ -17,6 +17,12 @@ ssh-copy-id root@xxx.xxx.xx.xxx
 ssh root@xxx.xxx.xx.xxx
 ```
 
+## 清空 npm 缓存
+
+```sh
+npm cache clean -f
+```
+
 ## 安装 node-sass 模块
 
 ```bash
@@ -56,5 +62,5 @@ yarn config set electron_mirror https://npm.taobao.org/mirrors/electron/
 ## 获取数组最后一个值
 
 ```javascript
-array.at(-1)
+array.at(-1);
 ```
