@@ -20,3 +20,6 @@
 
 - [草料二维码](https://cli.im/)（制作自己的二维码）
 - [TinyPng](https://tinypng.com/)（在线压缩图片）
+- <a href="/blog/tools/ImageToPDForXPS.zip" download="ImageToPDForXPS">ImageToPDForXPS</a>（图片转 PDF 神器）
+- <a href="/blog/tools/ScreenToGif.zip" download="ScreenToGif">ScreenToGif</a>（录屏成 GIF 神器）
+- <a href="/blog/tools/httrack_x64-3.49.2.zip" download="Httrack">Httrack</a>（扒网站 神器）
