@@ -28,3 +28,9 @@
 
 - [eyesight](https://gitee.com/lubanseven/eyesight) `火眼金睛H5游戏`
 - [xball](https://gitee.com/lubanseven/xball) `叉烧包H5游戏`
+
+## 小程序
+
+- [慧眼识材](https://jasonbai007.github.io/blog/tech/mp1.jpg) `文字识别/花卉识别/同声传译`
+- [墨水天气](https://jasonbai007.github.io/blog/tech/mp2.jpg) `气象趋势图`
+- [颜值几何](https://jasonbai007.github.io/blog/tech/mp3.jpg) `颜值检测工具`
