@@ -43,6 +43,7 @@ module.exports = {
                     { text: '编辑工具', link: 'https://pandao.github.io/editor.md' },
                 ]
             },
+            { text: '联系我', link: '/contact/' },
             { text: 'GitHub', link: 'https://github.com/JasonBai007' },
         ],
         sidebar: 'auto',  // 侧栏根据页面标题自动生成导航
