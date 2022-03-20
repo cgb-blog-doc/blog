@@ -19,6 +19,7 @@ yarn deploy
 - 支持图片放映
 - 支持自定义样式
 - 支持自定义主题色
+- 支持自定义组件
 
 ## Directory Structure
 ```
