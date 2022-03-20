@@ -13,29 +13,58 @@ module.exports = {
         nav: [
             { text: '首页', link: '/' },
             {
-                text: '生活',
+                text: '爱生活',
                 items: [
-                    { text: '价值观', link: '/life/values' },
-                    { text: '日常记录', link: '/life/daily' },
-                    { text: '金融理财', link: '/life/financing' },
-                    { text: '职场法律', link: '/life/law' },
-                    { text: '医学健康', link: '/life/health' },
-                    { text: '诗词收藏', link: '/life/poems' },
-                    { text: '择偶条件', link: '/life/condition' },
+                    {
+                        text: '日常', items: [
+                            { text: '价值信条', link: '/life/values' },
+                            { text: '日常记录', link: '/life/daily' },
+                        ]
+                    },
+                    {
+                        text: '专业', items: [
+                            { text: '金融理财', link: '/life/financing' },
+                            { text: '职场法律', link: '/life/law' },
+                            { text: '医学健康', link: '/life/health' },
+                            { text: '诗词收藏', link: '/life/poems' },
+                        ]
+                    },
                 ]
             },
             {
-                text: '技术', items: [
-                    { text: '网站部署', link: '/tech/deploy' },
-                    { text: '样式技巧', link: '/tech/styles' },
-                    { text: '实用技术', link: '/tech/useful' },
-                    { text: '实用网站', link: '/tech/recommend' },
-                    { text: '开源项目', link: '/tech/projects' },
+                text: '玩技术', items: [
+                    {
+                        text: '文档', items: [
+                            { text: '样式技巧', link: '/tech/styles' },
+                            { text: '实用技术', link: '/tech/useful' },
+                            { text: '网站部署', link: '/tech/deploy' },
+                        ]
+                    },
+                    {
+                        text: '资源', items: [
+                            { text: '实用网站', link: '/tech/recommend' },
+                            { text: '开源项目', link: '/tech/projects' },
+                        ]
+                    },
                 ]
             },
-            { text: '摄影', link: '/album/' },
             {
-                text: '工具箱',
+                text: '摄影集', items: [
+                    {
+                        text: '人物', items: [
+                            { text: '日常随拍', link: '/album/free' },
+                        ]
+                    },
+                    {
+                        text: '风景', items: [
+                            { text: '都市街景', link: '/album/streetscape' },
+                            { text: '自然风光', link: '/album/nature' },
+                        ]
+                    },
+                ]
+            },
+            {
+                text: '超链接',
                 items: [
                     { text: '影视资源', link: 'https://www.nunuyy10.top' },
                     { text: '科学上网', link: 'https://github.com/freefq/free' },

@@ -59,7 +59,7 @@ export default {
   animation: fadeIn 0.8s 0s forwards;
 }
 .item:nth-of-type(2) {
-  animation: fadeIn 0.8s 0.4s forwards;
+  animation: fadeIn 0.8s 0.3s forwards;
 }
 .item:nth-of-type(3) {
   animation: fadeIn 0.8s 0.6s forwards;
