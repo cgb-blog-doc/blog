@@ -1,13 +1,50 @@
 # 网站部署
 
+## 使用 shell 脚本部署网站
+
+我们可以在本地通过 shell 脚本进行项目打包、代码提交、部署到服务器等操作。
+
+1. 在项目根目录新建一个`deploy.sh`文件
+2. 在 package.json 中添加 npm scripts
+
+```javascript {3}
+{
+  "scripts": {
+    "deploy": "sh deploy.sh"
+  }
+}
+```
+
+3. 编辑 deploy.sh，添加部署脚本
+
+```shell
+#!/bin/bash
+
+# 确保脚本抛出遇到的错误，遇到错误退出
+set -e
+
+echo "Deploying website on xxx.xxx.xx.xxx ..."
+
+# 生成静态文件
+npm run build
+
+# 将打包后的文件上传至目标服务器对应路径下
+scp -r ./dist/* root@xxx.xxx.xx.xxx:/home/project
+```
+
+4. 部署网站
+
+```shell
+npm run deploy
+# or
+yarn deploy
+```
+
+## 在 Gitee 上部署自己的网站
+
 ::: warning 警告
 由于**Gitee 网站**审核力度非常变态，普通的博客也很有可能无法正常部署，提示有违禁内容
 :::
-::: tip 建议
-建议将自己的网站放到**GitHub 仓库**里，并开启 Pages 服务，具体流程差不多
-:::
-
-## 在 Gitee 上部署自己的网站
 
 1. 打开 [gitee.com](https://gitee.com) 并注册一个账号，登录绑定自己的邮箱和手机号
 2. 在 gitee 上**新建一个代码仓库**，仓库名称根据个人喜好来定，比如 myRepo
