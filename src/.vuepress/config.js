@@ -35,8 +35,10 @@ module.exports = {
                 text: '玩技术', items: [
                     {
                         text: '文档', items: [
+                            { text: '日常办公', link: '/tech/office' },
                             { text: '样式技巧', link: '/tech/styles' },
-                            { text: '实用技术', link: '/tech/useful' },
+                            { text: '前端技术', link: '/tech/frontend' },
+                            { text: '后端技术', link: '/tech/backend' },
                             { text: '网站部署', link: '/tech/deploy' },
                         ]
                     },
