@@ -1,8 +1,34 @@
 # 样式技巧
 
+## 单行省略号
+
+<p style="overflow:hidden; white-space:nowrap; text-overflow:ellipsis;" title="Vue 是一套用于构建用户界面的渐进式框架。与其它大型框架不同的是，Vue 被设计为可以自底向上逐层应用。">Vue 是一套用于构建用户界面的渐进式框架。与其它大型框架不同的是，Vue 被设计为可以自底向上逐层应用。</p>
+
+```css
+p {
+  overflow: hidden;
+  white-space: nowrap; /*禁止换行*/
+  text-overflow: ellipsis; /*省略号*/
+}
+```
+
+## 多行省略号 <Badge text="只适用于webkit浏览器或者移动端" type="warning"/>
+
+<p style="overflow:hidden; display:-webkit-box; -webkit-box-orient:vertical; -webkit-line-clamp:2; text-overflow:ellipsis;" title="Vue 是一套用于构建用户界面的渐进式框架。与其它大型框架不同的是，Vue 被设计为可以自底向上逐层应用。Vue 的核心库只关注视图层，不仅易于上手，还便于与第三方库或既有项目整合。另一方面，当与现代化的工具链以及各种支持类库结合使用时，Vue 也完全能够为复杂的单页应用提供驱动。">Vue 是一套用于构建用户界面的渐进式框架。与其它大型框架不同的是，Vue 被设计为可以自底向上逐层应用。Vue 的核心库只关注视图层，不仅易于上手，还便于与第三方库或既有项目整合。另一方面，当与现代化的工具链以及各种支持类库结合使用时，Vue 也完全能够为复杂的单页应用提供驱动。</p>
+
+```css
+p {
+  overflow: hidden;
+  display: -webkit-box; /*将对象作为弹性伸缩盒子模型显示*/
+  -webkit-box-orient: vertical; /*设置或检索伸缩盒对象的子元素的排列方式*/
+  -webkit-line-clamp: 2; /*限制在一个块元素显示的文本的行数*/
+  text-overflow: ellipsis;
+}
+```
+
 ## 文本块两端对齐并居中
 
-<p style="text-align: justify;text-align-last: center;">王合信基先选团可六住按西非便老种。世风构置放包知圆长气资积劳照用门好。保素只电教完八段容市响术研。厂整红文据很感装究育说常人矿题。理派马命层身资西开少号照行满片系江。那志引事管资后米以命力选火好。</p>
+<p style="text-align: justify;text-align-last: center;">Vue 是一套用于构建用户界面的渐进式框架。与其它大型框架不同的是，Vue 被设计为可以自底向上逐层应用。Vue 的核心库只关注视图层，不仅易于上手，还便于与第三方库或既有项目整合。另一方面，当与现代化的工具链以及各种支持类库结合使用时，Vue 也完全能够为复杂的单页应用提供驱动。</p>
 
 ```css
 p {
