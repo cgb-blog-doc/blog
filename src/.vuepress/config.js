@@ -7,7 +7,7 @@ module.exports = {
     host: 'localhost',
     base: '/blog/',  // 同代码仓库名称
     dest: 'docs',   // 因为GitHub的Pages服务仅支持docs目录
-    plugins: ['@vuepress/back-to-top', '@vuepress/medium-zoom'],  // 返回顶部插件 图片缩放插件    
+    plugins: ['@vuepress/back-to-top', '@vuepress/medium-zoom', ['vuepress-plugin-nuggets-style-copy', { copyText: '复制代码' }]],  // 返回顶部插件 图片缩放插件 代码一键复制   
     themeConfig: {
         logo: '/logo.png',
         nav: [
