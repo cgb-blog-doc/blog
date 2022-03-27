@@ -7,7 +7,11 @@
 ## 获取数组最后一个值
 
 ```javascript
+// IE浏览器和安卓的Opera不支持！但是Edge浏览器支持
 array.at(-1);
+
+// 传统方法
+array.slice(-1)[0];
 ```
 
 ## 移动端调试
