@@ -14,6 +14,25 @@ array.at(-1);
 array.slice(-1)[0];
 ```
 
+## reduce 方法使用示例
+
+```javascript
+// array.reduce(累加函数，初始值)
+[1, 2, 3].reduce((pre, cur) => pre + cur, 0); // 6
+
+// 1个元素
+[1].reduce((pre, cur) => pre + cur, 0); // 1
+
+// 0个元素时，必须传入初始值
+[].reduce((pre, cur) => pre + cur, 0); // 0
+
+// 复杂示例：pre不加.val，cur加
+[
+  { name: "a", val: 3 },
+  { name: "b", val: 4 },
+].reduce((pre, cur) => pre + cur.val, 0); // 7
+```
+
 ## 移动端调试
 
 1. 手机与电脑连接同一个 wifi，表示在同一局域网下
