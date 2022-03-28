@@ -21,6 +21,7 @@ yarn deploy
 - 支持自定义主题色
 - 支持自定义组件
 - 支持代码一键复制
+- 支持留言板
 
 ## Directory Structure
 ```

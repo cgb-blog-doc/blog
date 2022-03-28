@@ -15,5 +15,8 @@
     "@vuepress/plugin-medium-zoom": "^1.9.7",
     "vuepress": "^1.9.7",
     "vuepress-plugin-nuggets-style-copy": "^1.0.3"
+  },
+  "dependencies": {
+    "valine": "^1.4.18"
   }
 }
