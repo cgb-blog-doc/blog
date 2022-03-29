@@ -14,26 +14,28 @@
 
 <script>
 // 使用示例：<bai-comment :readingNum="true"/>
-import Valine from "valine";
 export default {
   name: "bai-comment",
   props: {
     // 是否统计阅读量
     readingNum: {
-      type: "Boolean",
+      type: Boolean,
       default: false,
     },
   },
   data() {
     return {
-      articlePath: window.location.pathname,
+      articlePath: "",
     };
   },
   mounted() {
+    // 请确保只在 beforeMount 或者 mounted 访问浏览器 / DOM 的 API
+    this.articlePath = window.location.pathname;
     this.init();
   },
   methods: {
     init() {
+      const Valine = require("valine");
       new Valine({
         el: "#com", // 容器ID
         appId: "Uycc9kGTrdbEATzhKnxlkWmo-gzGzoHsz", // "3GiiCyXCrGbOIH3EelCfJ6yw-gzGzoHsz" 官网示例
