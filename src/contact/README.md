@@ -4,4 +4,4 @@
 
 # 留言板
 
-<my-comment/>
+<bai-comment :readingNum="true"/>
