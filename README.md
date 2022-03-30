@@ -53,3 +53,10 @@ yarn deploy
 7. Github提交代码后，等待一两分钟，刷新页面，博客会更新
 8. Gitee提交代码后，需要手动更新Pages
 9. 可以使用草料二维码生成自己的博客地址二维码
+
+## 看板娘本地化
+1. 看板娘插件默认使用的是黑猫
+2. 加载线上的资源太慢，所以做了本地化
+3. node_modules\@vuepress-reco\vuepress-plugin-kan-ban-niang\bin\KanBanNiang.vue
+4. 改成：blackCat:'/blog/mode/hijiki.model.json'
+5. 看板娘需要加载的资源放在了：src\.vuepress\public\mode
