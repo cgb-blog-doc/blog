@@ -64,10 +64,12 @@ export default {
 /* 加深留言板边框颜色 */
 .v[data-class="v"] .vwrap,
 .v[data-class="v"] .vbtn,
-.v[data-class="v"] .vwrap .vheader .vinput {
-  border-color: #e0e0e0;
+.v[data-class="v"] .vwrap .vheader .vinput,
+.v[data-class="v"] .vcards .vcard .vquote,
+.v[data-class="v"] .vcards .vcard .vh {
+  border-color: #e0e0e0 !important;
 }
 .v[data-class="v"] .vwrap .vheader .vinput {
-  border-color: #d0d0d0;
+  border-color: #d0d0d0 !important;
 }
 </style>
