@@ -68,7 +68,6 @@ export default {
 }
 #com.v[data-class="v"] .vwrap,
 #com.v[data-class="v"] .vbtn,
-#com.v[data-class="v"] .vwrap .vheader .vinput,
 #com.v[data-class="v"] .vcards .vcard .vh {
   border-color: #e0e0e0;
 }
