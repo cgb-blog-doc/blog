@@ -61,15 +61,33 @@ export default {
 #com {
   margin-top: 20px;
 }
-/* 加深留言板边框颜色 */
-.v[data-class="v"] .vwrap,
-.v[data-class="v"] .vbtn,
-.v[data-class="v"] .vwrap .vheader .vinput,
-.v[data-class="v"] .vcards .vcard .vquote,
-.v[data-class="v"] .vcards .vcard .vh {
-  border-color: #e0e0e0 !important;
+/* 覆盖Valine控件样式 */
+.v[data-class="v"] .vcards > .vcard {
+  padding-bottom: 10px;
+  border-bottom: 1px dashed #e0e0e0;
 }
-.v[data-class="v"] .vwrap .vheader .vinput {
-  border-color: #d0d0d0 !important;
+#com.v[data-class="v"] .vwrap,
+#com.v[data-class="v"] .vbtn,
+#com.v[data-class="v"] .vwrap .vheader .vinput,
+#com.v[data-class="v"] .vcards .vcard .vh {
+  border-color: #e0e0e0;
+}
+#com.v[data-class="v"] .vwrap .vheader .vinput {
+  border-color: #d0d0d0;
+}
+#com.v[data-class="v"] .vcards .vcard .vh {
+  padding-bottom: 0;
+  border-bottom: unset;
+}
+#com.v[data-class="v"] .vcards .vcard .vquote {
+  border-left: unset;
+  border-radius: 10px;
+  background: rgba(247, 248, 250, 0.9);
+}
+.v[data-class="v"] .vcards .vcard .vh .vmeta .vat {
+  margin-right: 1em;
+}
+.v[data-class="v"] .vcards .vcard .vquote .vimg {
+  background: #fff;
 }
 </style>
