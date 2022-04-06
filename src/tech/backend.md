@@ -17,6 +17,27 @@ ssh-copy-id root@xxx.xxx.xx.xxx
 ssh root@xxx.xxx.xx.xxx
 ```
 
+## 使用 scp 上传本地文件到服务器
+
+在当前文件夹下，右击鼠标，选择`Git Bash Here`
+
+```sh
+# 上传当前文件夹下的所有文件到服务器的/home/pdf目录
+scp ./* root@xx.xx.xx.xx:/home/pdf
+```
+
+## 使用 scp 下载服务器上的文件
+
+在当前文件夹下，右击鼠标，选择`Git Bash Here`
+
+```sh
+# 下载服务器上的/home/index.html文件到当前文件夹
+scp root@xx.xx.xx.xx:/home/index.html ./
+
+# 下载服务器上的/home/pdf文件夹到当前文件夹
+scp -r root@xx.xx.xx.xx:/home/pdf ./
+```
+
 ## Nginx 常用配置
 
 ### 1. 反向代理&支持前端路由 history 模式
