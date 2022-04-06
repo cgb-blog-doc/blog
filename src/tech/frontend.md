@@ -122,3 +122,30 @@ git cherry-pick <HashA>
 # 挑选多个提交到master
 git cherry-pick <HashA> <HashB>
 ```
+
+## 在 vue 中使用防抖技术
+
+```javascript
+// 方式一：
+// <el-button @click="handleClick">防抖</el-button>
+// 直接引入工具函数对象
+import utils from "@/utils/index.js";
+export default {
+  methods: {
+    handleClick: utils.debounce(() => {
+      console.log("防抖");
+    }, 2000),
+  },
+};
+```
+
+```javascript
+// 方式二：
+// <el-button @click="handleClick">防抖</el-button>
+created() {
+  // 使用全局的工具函数对象
+  this.handleClick = this.$utils.debounce(() => {
+    console.log("防抖");
+  }, 2000);
+}
+```

@@ -17,6 +17,7 @@
 
 ## 工具类
 
+- [utils](https://gitee.com/lubanseven/utils) `封装了常用工具函数`
 - [json-preview](https://github.com/JasonBai007/json-preview) `Mock数据可视化工具`
 - [cube](https://github.com/JasonBai007/cube) `ThreeJS的3D空间`
 - [b-danmakus](https://github.com/JasonBai007/b-danmakus) `爬取B站弹幕数据并分析弹幕情感`
