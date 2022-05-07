@@ -120,6 +120,16 @@ created() {
 }
 ```
 
+## 控制台获取上次执行结果
+
+```javascript
+1 + 1;
+// 2
+
+$_ * 10;
+// 20
+```
+
 ## 移动端调试
 
 1. 手机与电脑连接同一个 wifi，表示在同一局域网下
@@ -131,6 +141,20 @@ created() {
 devServer: {
   host: "0.0.0.0"; // 表示前端服务在所有本机IP上监听
 }
+```
+
+## 让你的网页飘花瓣
+
+```html
+<!-- 直接引入 -->
+<script src="https://cdn.jsdelivr.net/gh/yremp/yremp-js@1.5/sakura.js"></script>
+
+<!-- 动态引入 -->
+<script>
+  let _js = document.createElement("script");
+  _js.src = "https://cdn.jsdelivr.net/gh/yremp/yremp-js@1.5/sakura.js";
+  document.head.append(_js);
+</script>
 ```
 
 ## Npm 不常用操作

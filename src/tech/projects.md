@@ -6,6 +6,7 @@
 
 ## 博客类
 
+- [book](https://lubanseven.gitee.io/book) `刘慈欣短篇小说有声合集`
 - [blog](https://gitee.com/lubanseven/blog) `一个开箱即用的博客模板`
 - [baipress](https://github.com/JasonBai007/baipress) `曾经写的一个开发指南`
 
