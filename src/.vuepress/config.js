@@ -31,6 +31,7 @@ module.exports = {
                             { text: '价值信条', link: '/life/values' },
                             { text: '日常记录', link: '/life/daily' },
                             { text: '影视分享', link: '/life/movie' },
+                            { text: '希望你是', link: '/life/you' },
                         ]
                     },
                     {
