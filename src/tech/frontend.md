@@ -153,7 +153,7 @@ devServer: {
 <script>
   let _js = document.createElement("script");
   _js.src = "https://cdn.jsdelivr.net/gh/yremp/yremp-js@1.5/sakura.js";
-  document.head.append(_js);
+  document.head.appendChild(_js);
 </script>
 ```
 
