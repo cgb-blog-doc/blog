@@ -1,5 +1,65 @@
 # 样式技巧
 
+## CSS 实现打字效果
+
+<p class="typing-effect">让我们一起玩技术！</p>
+
+<style>
+  .typing-effect {
+    width: 19ch;
+    height: 22px;
+    line-height: 22px;
+    border-right: 2px solid;
+    animation: typing 3s steps(9) infinite, shine .5s step-end infinite alternate;
+    overflow: hidden;
+  }
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+  }
+  @keyframes shine {
+    50% {
+      border-color: transparent;
+    }
+  }
+</style>
+
+```css
+/**
+  <p class="typing-effect">让我们一起玩技术！</p > 
+*/
+.typing-effect {
+  width: 19ch; /* 1ch = 0的宽度 = 半个汉字的宽度 */
+  height: 22px;
+  line-height: 22px;
+  white-space: nowrap;
+  border-right: 2px solid;
+  animation: typing 3s steps(9) infinite, shine 0.5s step-end infinite alternate;
+  overflow: hidden;
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+@keyframes shine {
+  50% {
+    border-color: transparent;
+  }
+}
+```
+
+## 使用 attr()从 DOM 中取值
+
+```css
+/* <p data-length="9" class="txt">some text</p> */
+
+.txt::after {
+  content: attr(data-length); /* 从DOM中取值 */
+}
+```
+
 ## 单行省略号
 
 <p style="overflow:hidden; white-space:nowrap; text-overflow:ellipsis;" title="Vue 是一套用于构建用户界面的渐进式框架。与其它大型框架不同的是，Vue 被设计为可以自底向上逐层应用。">Vue 是一套用于构建用户界面的渐进式框架。与其它大型框架不同的是，Vue 被设计为可以自底向上逐层应用。</p>
