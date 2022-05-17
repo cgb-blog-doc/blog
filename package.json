@@ -2,7 +2,7 @@
   "name": "blog",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://gitee.com/lubanseven/blog.git",
+  "repository": "https://github.com/JasonBai007/blog.git",
   "author": "JasonBai007 <byygkcg@163.com>",
   "license": "MIT",
   "scripts": {
