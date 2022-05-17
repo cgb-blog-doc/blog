@@ -4,6 +4,12 @@
 工欲善其事，必先利其器
 :::
 
+## 生成随机字符串
+
+```javascript
+Date.now().toString(36);
+```
+
 ## 获取数组最后一个值
 
 ```javascript
