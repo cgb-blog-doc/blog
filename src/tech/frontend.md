@@ -76,6 +76,16 @@ $_ * 10;
 // 20
 ```
 
+## Vue 中父子组件生命周期顺序
+
+1. 父 beforeCreate -> 父 created -> 父 beforeMount ->
+2. 子 beforeCreate -> 子 created -> 子 beforeMount -> 子 mounted ->
+3. 父 mounted
+
+4. 父 beforeUpdate->子 beforeUpdate->子 updated->父 updated
+
+5. 父 beforeDestroy->子 beforeDestroy->子 destroyed->父 destroyed
+
 ## 移动端调试
 
 1. 手机与电脑连接同一个 wifi，表示在同一局域网下
