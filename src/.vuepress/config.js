@@ -31,14 +31,14 @@ module.exports = {
                             { text: '价值信条', link: '/life/values' },
                             { text: '日常记录', link: '/life/daily' },
                             { text: '影视分享', link: '/life/movie' },
-                            { text: '希望你是', link: '/life/you' },
+                            // { text: '希望你是', link: '/life/you' },
                         ]
                     },
                     {
                         text: '专业', items: [
                             { text: '金融理财', link: '/life/financing' },
                             { text: '职场法律', link: '/life/law' },
-                            { text: '医学健康', link: '/life/health' },
+                            // { text: '医学健康', link: '/life/health' },
                             { text: '诗词收藏', link: '/life/poems' },
                         ]
                     },
@@ -81,7 +81,7 @@ module.exports = {
             {
                 text: '超链接',
                 items: [
-                    { text: '影视资源', link: 'https://www.nnyy6.top' },
+                    { text: '影视资源', link: 'https://www.nunuyy.org' },
                     { text: '科学上网', link: 'https://github.com/freefq/free' },
                     { text: '博客主题', link: 'https://vuepress.vuejs.org/zh/theme/default-theme-config.html' },
                     { text: '编辑工具', link: 'https://pandao.github.io/editor.md' },

@@ -25,6 +25,7 @@
 - [qinghua](https://gitee.com/lubanseven/qinghua) `随机土味情话`
 - [age](https://gitee.com/lubanseven/age) `真实年龄计算器`
 - [douyin](https://gitee.com/lubanseven/douyin) `抖音无水印下载工具`
+- [lego](https://github.com/JasonBai007/lego) `拖拽表单生成器`
 
 ## 游戏类
 
