@@ -6,7 +6,7 @@
 
 ## UUID
 
-UUID 是通用唯一识别码，形式为 8-4-4-4-12  
+UUID 是通用唯一识别码，形式为 8-4-4-4-12，每个x是一个16进制数  
 xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
 
 ```js
