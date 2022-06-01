@@ -4,6 +4,17 @@
 工欲善其事，必先利其器
 :::
 
+## UUID
+
+UUID 是通用唯一识别码，形式为 8-4-4-4-12  
+xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
+
+```js
+npm i uuid
+const uuid = require('uuid')
+uuid.v4() //生成随机字符串
+```
+
 ## 服务器免密登录三步曲
 
 ```sh {5}
