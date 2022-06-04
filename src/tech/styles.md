@@ -1,5 +1,16 @@
 # 样式技巧
 
+## 毛玻璃效果
+
+火狐（PC 和 Mobile）、IE 不支持
+
+```css
+div {
+  background: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(3px); /* 重点样式 */
+}
+```
+
 ## CSS 实现打字效果
 
 <p class="typing-effect">让我们一起玩技术！</p>
