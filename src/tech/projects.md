@@ -18,6 +18,8 @@
 
 ## 工具类
 
+- [lego](https://github.com/JasonBai007/lego) `拖拽表单生成器`
+- [fluid](https://gitee.com/lubanseven/fluid) `磁流体播放器`
 - [utils](https://gitee.com/lubanseven/utils) `封装了常用工具函数`
 - [json-preview](https://github.com/JasonBai007/json-preview) `Mock数据可视化工具`
 - [cube](https://github.com/JasonBai007/cube) `ThreeJS的3D空间`
@@ -25,7 +27,6 @@
 - [qinghua](https://gitee.com/lubanseven/qinghua) `随机土味情话`
 - [age](https://gitee.com/lubanseven/age) `真实年龄计算器`
 - [douyin](https://gitee.com/lubanseven/douyin) `抖音无水印下载工具`
-- [lego](https://github.com/JasonBai007/lego) `拖拽表单生成器`
 
 ## 游戏类
 
