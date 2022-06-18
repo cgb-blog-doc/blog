@@ -4,6 +4,18 @@
 工欲善其事，必先利其器
 :::
 
+## computed 传参
+
+```javascript
+computed: {
+  genUrl() {
+    return function (str) {
+      return `https://${str}:8090/${this.path}`
+    }
+  }
+}
+```
+
 ## 生成随机字符串
 
 ```javascript
