@@ -28,6 +28,7 @@
 - [age](https://gitee.com/lubanseven/age) `真实年龄计算器`
 - [douyin](https://gitee.com/lubanseven/douyin) `抖音无水印下载工具`
 - [zither](https://gitee.com/lubanseven/zither) `夜猫牌古筝`
+- [salary](https://gitee.com/lubanseven/salary) `工资计算器`
 
 ## 游戏类
 
