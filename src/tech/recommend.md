@@ -18,6 +18,7 @@
 
 ## 工具类
 
+- [BootCDN](https://www.bootcdn.cn/)（获取 cdn 资源）
 - [草料二维码](https://cli.im/)（制作自己的二维码）
 - [TinyPng](https://tinypng.com/)（在线压缩图片）
 - <a href="/blog/tools/ImageToPDForXPS.zip" download="ImageToPDForXPS">ImageToPDForXPS</a>（图片转 PDF 神器）

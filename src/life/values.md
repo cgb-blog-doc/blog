@@ -1,4 +1,4 @@
-# 价值观
+# 我的核心价值观
 
 <br>
 
@@ -6,10 +6,12 @@
 
 2. 每一天都是机会。
 
-3. 滴水之恩，当涌泉相报。
+3. 遇到问题，解决问题。
 
-4. 己所不欲勿施于人。
+4. 滴水之恩，当涌泉相报。
 
-5. 尝试、尝试、再尝试。
+5. 己所不欲勿施于人。
 
-6. All work and no play makes jack a dull boy.
+6. 尝试、尝试、再尝试。
+
+7. All work and no play makes jack a dull boy.
