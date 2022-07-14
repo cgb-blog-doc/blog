@@ -7,8 +7,9 @@
 ## 博客类
 
 - [book](https://lubanseven.gitee.io/book) `刘慈欣短篇小说有声合集`
+- [selfhelp](https://lubanseven.gitee.io/selfhelp) `精神焦虑症的自救`
 - [blog](https://gitee.com/lubanseven/blog) `一个开箱即用的博客模板`
-- [baipress](https://github.com/JasonBai007/baipress) `曾经写的一个开发指南`
+- [baipress](http://lubanseven.gitee.io/baipress) `曾经写的一个开发指南`
 
 ## 中台类
 
@@ -18,22 +19,25 @@
 
 ## 工具类
 
-- [lego](https://github.com/JasonBai007/lego) `拖拽表单生成器`
-- [fluid](https://gitee.com/lubanseven/fluid) `磁流体播放器`
+- [lego](https://jasonbai007.github.io/lego) `拖拽表单生成器`
+- [fluid](https://lubanseven.gitee.io/fluid) `磁流体播放器`
 - [utils](https://gitee.com/lubanseven/utils) `封装了常用工具函数`
-- [json-preview](https://github.com/JasonBai007/json-preview) `Mock数据可视化工具`
-- [cube](https://github.com/JasonBai007/cube) `ThreeJS的3D空间`
+- [json-preview](https://jasonbai007.github.io/json-preview) `Mock数据可视化工具`
+- [cube](https://lubanseven.gitee.io/room/index.html) `ThreeJS的3D空间`
 - [b-danmakus](https://github.com/JasonBai007/b-danmakus) `爬取B站弹幕数据并分析弹幕情感`
-- [qinghua](https://gitee.com/lubanseven/qinghua) `随机土味情话`
-- [age](https://gitee.com/lubanseven/age) `真实年龄计算器`
-- [douyin](https://gitee.com/lubanseven/douyin) `抖音无水印下载工具`
-- [zither](https://gitee.com/lubanseven/zither) `夜猫牌古筝`
-- [salary](https://gitee.com/lubanseven/salary) `工资计算器`
+- [qinghua](https://lubanseven.gitee.io/qinghua) `随机土味情话`
+- [age](https://lubanseven.gitee.io/age) `真实年龄计算器`
+- [douyin](https://lubanseven.gitee.io/douyin) `抖音无水印下载工具`
+- [zither](https://lubanseven.gitee.io/zither) `夜猫牌古筝`
+- [salary](https://lubanseven.gitee.io/salary) `工资计算器`
+- [keeper](https://jasonbai007.github.io/keeper) `计划执行记录器`
+- [done](http://lubanseven.gitee.io/done) `周报记录器`
+- [suanban](http://lubanseven.gitee.io/suanban/#/movie) `蒜瓣-聪白`
 
 ## 游戏类
 
-- [eyesight](https://gitee.com/lubanseven/eyesight) `火眼金睛H5游戏`
-- [xball](https://gitee.com/lubanseven/xball) `叉烧包H5游戏`
+- [eyesight](https://lubanseven.gitee.io/eyesight) `火眼金睛H5游戏`
+- [xball](https://lubanseven.gitee.io/xball) `叉烧包H5游戏`
 
 ## 小程序
 

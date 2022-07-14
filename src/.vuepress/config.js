@@ -28,8 +28,9 @@ module.exports = {
                 items: [
                     {
                         text: '日常', items: [
-                            { text: '价值信条', link: '/life/values' },
+                            { text: '日常办公', link: '/tech/office' },
                             { text: '日常记录', link: '/life/daily' },
+                            { text: '价值信条', link: '/life/values' },
                             { text: '影视分享', link: '/life/movie' },
                             // { text: '希望你是', link: '/life/you' },
                         ]
@@ -48,7 +49,6 @@ module.exports = {
                 text: '玩技术', items: [
                     {
                         text: '文档', items: [
-                            { text: '日常办公', link: '/tech/office' },
                             { text: '样式技巧', link: '/tech/styles' },
                             { text: '前端技术', link: '/tech/frontend' },
                             { text: '后端技术', link: '/tech/backend' },
