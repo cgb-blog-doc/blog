@@ -4,6 +4,43 @@
 工欲善其事，必先利其器
 :::
 
+## sleep 函数的两种实现方式
+
+1. 页面可以正常操作，渲染，不会卡死！
+
+```js
+// 异步版，返回一个promise，在指定时间后resolve
+const sleep = (time) => new Promise((resolve) => setTimeout(resolve, time));
+
+// 使用示例：需要在async函数中使用
+async function myFunc() {
+  console.log(11);
+  await sleep(4000);
+  console.log(22);
+}
+myFunc();
+```
+
+2. 注意：页面直接卡死！！！
+
+```js
+// 同步版，借助while循环实现线程阻塞
+const sleep = (time) => {
+  let start = new Date();
+  while (new Date() - start < time) {
+    continue;
+  }
+};
+// 使用示例：
+function testSleep() {
+  console.log(11);
+  sleep(4000);
+  console.log(22);
+}
+
+testSleep();
+```
+
 ## computed 传参
 
 ```javascript
